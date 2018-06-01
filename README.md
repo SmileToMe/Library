@@ -19,7 +19,6 @@
 
 
 allprojects{
-
 	repositories {
 	
 		...
@@ -32,7 +31,6 @@ allprojects{
   
   
   dependencies {
-  
 	        implementation 'com.github.SmileToMe.Library:library:1.0.3'
 		
          
