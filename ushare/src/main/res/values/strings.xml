@@ -1,0 +1,5 @@
+<resources>
+
+    <string name="un_install_wx">未安装微信</string>
+    <string name="un_install_qq">未安装QQ</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TabLayoutTextAppearanceM" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/text_5c5c5c</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TabLayoutTextCourse" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textColor">@color/n_535353</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

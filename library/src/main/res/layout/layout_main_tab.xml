@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dp4"
+                android:paddingTop="@dimen/dp4">
+
+    <ImageView
+        android:id="@+id/tab_img"
+        android:layout_width="@dimen/dp21"
+        android:layout_height="@dimen/dp21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp4"
+        android:scaleType="fitCenter"
+        tools:src="@mipmap/ic_head"/>
+
+    <TextView
+        android:id="@+id/tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tab_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp4"
+        android:textColor="@drawable/tab_text_color"
+        android:textSize="@dimen/sp_10"
+        tools:text="测试"/>
+
+
+    <com.p.library.widget.round.RoundTextView
+        android:id="@+id/tab_unread"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp16"
+        android:layout_alignLeft="@id/tab_img"
+        android:layout_alignStart="@id/tab_img"
+        android:layout_marginLeft="@dimen/dp11"
+        android:layout_marginStart="@dimen/dp11"
+        android:gravity="center"
+        android:minWidth="@dimen/dp16"
+        android:paddingLeft="@dimen/dp4"
+        android:paddingRight="@dimen/dp4"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_10"
+        app:rv_backgroundColor="@color/red"
+        app:rv_isRadiusHalfHeight="true"
+        app:rv_textPressColor="@color/white"
+        tools:text="90+"/>
+
+</RelativeLayout>

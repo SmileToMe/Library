@@ -1,0 +1,21 @@
+<manifest package="com.p.library"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+
+    <application
+        android:allowBackup="false"
+        android:supportsRtl="false"
+        tools:replace="android:allowBackup,android:supportsRtl">
+
+        <meta-data
+            android:name="com.p.library.widget.GlideModuleM"
+            android:value="GlideModule"/>
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+            tools:node="remove"/>
+    </application>
+
+</manifest>
