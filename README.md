@@ -18,15 +18,24 @@
 #### 使用说明
 
 allprojects{
+
 	repositories {
+	
 		...
+		
 		maven { url 'https://jitpack.io' }
+		
 		}
+		
 	}
   
   dependencies {
+  
 	        implementation 'com.github.SmileToMe.Library:library:1.0.3'
-          implementation 'com.github.SmileToMe.Library:ushare:1.0.3'
+		
+         
+		implementation 'com.github.SmileToMe.Library:ushare:1.0.3'
+		
 	}
 
 
