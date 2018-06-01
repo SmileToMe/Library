@@ -4,6 +4,7 @@ import com.p.library.A;
 
 public class ApplicationM extends A {
 
+
     public static ApplicationM getInstance() {
         return (ApplicationM) application;
     }
