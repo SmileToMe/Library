@@ -17,9 +17,18 @@
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+  dependencies {
+	        implementation 'com.github.SmileToMe.Library:library:1.0.3'
+          implementation 'com.github.SmileToMe.Library:ushare:1.0.3'
+	}
+
 
 #### 参与贡献
 
