@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+﻿apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
 
@@ -28,17 +28,17 @@ android {
 
     signingConfigs {
         release {
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storeFile file(keystoreProperties['storeFile'])
-            storePassword keystoreProperties['storePassword']
+//              keyAlias keystoreProperties['keyAlias']
+//              keyPassword keystoreProperties['keyPassword']
+//              storeFile file(keystoreProperties['storeFile'])
+//             storePassword keystoreProperties['storePassword']
 //            v2SigningEnabled false
         }
         debug {
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storeFile file(keystoreProperties['storeFile'])
-            storePassword keystoreProperties['storePassword']
+//              keyAlias keystoreProperties['keyAlias']
+//              keyPassword keystoreProperties['keyPassword']
+//              storeFile file(keystoreProperties['storeFile'])
+//              storePassword keystoreProperties['storePassword']
         }
     }
 
